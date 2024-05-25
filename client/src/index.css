@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-pure-white text-humble-black
+}
+
+@font-face{
+    font-family: "Neue-Regrade-Bold";
+    src: local("Neue-Regrade"),
+    url('./assets/fonts/Neue-Regrade-Bold.otf') format("opentype");
+}
+
+@font-face{
+    font-family: "GeneralSans-Regular";
+    src: local("Neue-Regrade"),
+    url('./assets/fonts/GeneralSans-Regular.otf') format("opentype");
+}
+
+
+@font-face{
+    font-family: "GeneralSans-Semibold";
+    src: local("Neue-Regrade"),
+    url('./assets/fonts/GeneralSans-Semibold.otf') format("opentype");
+}
+
+h1{
+    @apply font-NRBold text-[96px] leading-[100%]
+}
+
+h2{
+    @apply font-NRBold text-[48px] leading-[120%]
+}
+
+h3{
+    @apply font-NRBold text-[24px] leading-[140%]
+}
+
+h4{
+    @apply font-NRBold text-[16px] leading-[140%]
+}
+
+.paragraph{
+    @apply font-GSRegular text-[14px] leading-[180%]
+}
+
+.accordion{
+    @apply font-GSRegular text-[14px] leading-[150%]
+}
+
+.subtitle{
+    @apply font-GSSemibold text-[12px] leading-[150%]
+}
+
+.paragraph-strong{
+    @apply font-GSSemibold text-[14px] leading-[150%]
+}
+
+.container{
+    @apply max-w-[1312px] mx-auto
+}
