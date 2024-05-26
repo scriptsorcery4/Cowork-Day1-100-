@@ -39,7 +39,7 @@ Clone the repository and get started with Cowork today!
 
 ```bash
 git clone https://github.com/scriptsorcery4/Cowork-Day1-100-.git
-cd Cowork-Day1-100
+cd Cowork-Day1-100-
 cd client
 npm install
 npm run dev
